@@ -45,6 +45,8 @@ driver.find_element(By.XPATH,"//button[contains(text(),'Del')]").click()
 time.sleep(1)
 
 # XPath Axes (parent, child, sibling)(Traversing the DOM)
+# Syntax : /relation name(eg.parent)::target tag(eg.div)
+
 driver.get("https://the-internet.herokuapp.com/tables")
 time.sleep(1)
 
