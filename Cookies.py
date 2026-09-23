@@ -39,11 +39,5 @@ driver.add_cookie({"name" : "session-username", "value" : "standard_user"})
 driver.get("https://www.saucedemo.com/inventory.html")
 wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@class='app_logo']")))
 
-driver.delete_all_cookies()
-driver.get("https://www.saucedemo.com/inventory.html")
-
-
 time.sleep(1)
 driver.quit()
-
-
